@@ -1,0 +1,28 @@
+source 'https://rubygems.org'
+
+# Cucumber for writing and running functional tests
+gem 'cucumber', '~> 9.2'
+
+# Capybara for web interactions
+gem 'capybara', '~> 3.40', require: 'capybara/cucumber'
+
+# Selenium WebDriver for browser automation
+gem 'selenium-webdriver', '~> 4.0'
+
+# RSpec Expectations for assertions
+gem 'rspec-expectations', '~> 3.13.1'
+
+# Dotenv for managing environment variables
+gem 'dotenv', '~> 3.1.2'
+
+# Axe for accessibility testing
+gem 'axe-core-cucumber', '~> 4.10.0', require: 'axe-cucumber-steps'
+
+# Optional: Pry for debugging
+gem 'pry', '~> 0.15.0'
+
+# Optional: Launchy for opening URLs in the browser during testing
+gem 'launchy', '~> 3.0.1'
+
+# Optional: Byebug for interactive debugging
+gem 'byebug', '~> 11.1.3'
