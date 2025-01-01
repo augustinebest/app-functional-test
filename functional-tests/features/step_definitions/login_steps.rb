@@ -1,4 +1,5 @@
 Given('I navigate to the login page') do
+  puts "Visiting: #{Capybara.app_host + '/login'}"
   visit '/login'
 end
 
